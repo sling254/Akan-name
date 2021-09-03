@@ -24,7 +24,18 @@
     min-height:500px;
     margin-top: 100px; 
 }
-
+/* Style the akan name section */
 #akan-name-jumbotron{
     background-image: url("../img/akan-avatar.jpg");
+}
+#result-box{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+}
+.result-pargraph{
+    margin-top: 50px;
+}
+footer{
+    background-color: #C4C4C4;
 }
