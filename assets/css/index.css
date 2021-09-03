@@ -1,3 +1,4 @@
+/* Style the Navbar */
 .bg-light {
     background-color: white !important;
 }
@@ -12,4 +13,12 @@
 .btn-akaname{
     background-color:red;
     color: white!important;
+}
+
+/* Style the hero section */
+.hero-section{
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:500px; 
 }
