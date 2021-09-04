@@ -28,7 +28,8 @@ function getcurrentyear() {
     return n;
   }
 
-function getname(){
+function getname(e){
+    e.preventDefault();
     var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
     var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"];
@@ -56,12 +57,17 @@ function getname(){
 
     var dayOfBirth = ( ( (century/4) -2*year-1) + ((5*year/4) ) + ((26*(mob+1)/10)) + dob ) % 7;
     var dayOfBirth = Math.floor(dayOfBirth);
+    
 
     if(gender === "Male"){
         document.getElementById("results").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+" and your name is " +  maleName[dayOfBirth -1];
         
     }else if(gender === "Female")
         document.getElementById("results").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+" and your name is " +  femaleName[dayOfBirth -1];
+
+
+    var dayOfWeek = dayOfWeek[dayOfBirth-1];
+    console.log(dayOfWeek);
     
 }
 
