@@ -3,8 +3,7 @@ This Website is designed to take users input and generate an AkanName for them b
 
 
 ### Check out the website :stars:
-
-
+https://sling254.github.io/Akan-name/
 
 # Project Setup Instructions
 
