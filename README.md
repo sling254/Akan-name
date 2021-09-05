@@ -1,5 +1,5 @@
 # Akan-name
-This Website is designed to take users input and generate an AkanName for the based on the day the user was born.
+This Website is designed to take users input and generate an AkanName for them based on the day the user was born.
 
 
 ### Check out the website :stars:
@@ -21,9 +21,14 @@ This Website is designed to take users input and generate an AkanName for the ba
 ✔️ Contact
 ✔️ Get AkaName
 
+# Behaviour Driven Development (BDD) :office:
+* After loading the website the user can navigate to diffrent pages from the navbar.
+* In the Get Akan Name section the user :-
+ * Will fill in - Full Name - Date of Birth - Month of Birth -Year of Birth and select the gender
+ * Then click **Get AKANAME** button below the form.
+ * The Akan Name should be displayed on the right side of the screen.
 
-
-# Website Design
+# Website Design :link:
 * see [Website Design](https://www.figma.com/file/UF1I8Ra0UgwAH1yYrgHFxu/Akaname?node-id=0%3A1) file
 
 # Permissions
@@ -31,11 +36,16 @@ This Website is designed to take users input and generate an AkanName for the ba
 # Task lists
 - [x] Implement the design provided
 
+# Technologies used.
+- Javascript
+- Bootstrap -- version 4.6
+- Font awesome
+
 
 # Developer or Author Name
 - Muriithi Mwaniki
 - Github -- Sling254
 
-## License 
+## License :link:
 * see [LICENSE](https://github.com/sling254/Akan-name/blob/main/LICENSE) file
 
