@@ -7,7 +7,7 @@ function getcurrentyear() {
 
 function getname(){
     var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
+    var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     /* Get user Input */
     var Fname = document.getElementById("name").value;
@@ -46,10 +46,10 @@ function getname(){
     
 
     if(gender === "Male"){
-        document.getElementById("results").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+" and your name is " +  maleName[dayOfBirth -1];
+        document.getElementById("results").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+" and your Akan name is " +  maleName[dayOfBirth -1];
         
     }else if(gender === "Female")
-        document.getElementById("results").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+" and your name is " +  femaleName[dayOfBirth -1];
+        document.getElementById("results").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+" and your Akan name is " +  femaleName[dayOfBirth -1];
 
 
     
